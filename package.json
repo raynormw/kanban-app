@@ -1,7 +1,7 @@
 {
   "name": "kanban_app",
   "version": "0.0.0",
-  "description": "Webpack demo app",
+  "description": "Kanban with React DnD",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d build",
@@ -11,8 +11,9 @@
     "lint:js": "eslint app/ webpack.config.js"
   },
   "keywords": [
-    "webpack",
-    "demo"
+    "kanban",
+    "react",
+    "react-dnd"
   ],
   "author": "",
   "license": "MIT",

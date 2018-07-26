@@ -1,4 +1,4 @@
-# Kanban app - redux port
+# Kanban app
 
 This repository contains ReactJS, Redux and React DnD
 

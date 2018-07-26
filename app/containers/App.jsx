@@ -15,7 +15,7 @@ class App extends React.Component {
         <div className="header">Kanban React</div>
         <button className="add-lane"
           onClick={createLane.bind(null, {
-            name: 'New lane'
+            name: 'New Title'
           })}>+</button>
         <Lanes lanes={lanes} />
       </div>

@@ -69,7 +69,7 @@ class Lane extends React.Component {
     e.stopPropagation();
 
     const o = this.props.createNote({
-      task: 'New task'
+      task: 'New todo'
     });
     this.props.attachToLane(laneId, o.note.id);
   }

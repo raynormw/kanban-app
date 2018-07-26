@@ -92,6 +92,7 @@ body {
 
   background-color: #fdfdfd;
   box-shadow: 0 0 0.3em .03em rgba(0,0,0,.3);
+  border-radius: 0.2em;
 }
 .note:hover {
   box-shadow: 0 0 0.3em .03em rgba(0,0,0,.7);

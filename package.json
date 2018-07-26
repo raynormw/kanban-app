@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Kanban with React DnD",
   "main": "index.js",
+  "homepage": "https://raynormw.github.io/kanban-app",
   "scripts": {
     "deploy": "gh-pages -d build",
     "stats": "webpack --env production --profile --json > stats.json",

@@ -72,7 +72,8 @@ const productionConfig = {
     app: PATHS.app
   },
   output: {
-    path: PATHS.build,
+    publicPath: '/kanban-app/', // Use this when deploy
+    // path: PATHS.build, // Use this when dev
     filename: "[name].[chunkhash].js",
     chunkFilename: "[chunkhash].js"
   },

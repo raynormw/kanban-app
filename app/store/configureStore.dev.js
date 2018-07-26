@@ -1,10 +1,10 @@
 import { createStore, compose } from "redux";
 import { persistState } from "redux-devtools";
 import rootReducer from "../reducers";
-import DevTools from "../containers/DevTools";
+// import DevTools from "../containers/DevTools"; Uncomment this if you want to use ReduxTools
 
 const createStoreWithMiddleware = compose(
-  DevTools.instrument(),
+  // DevTools.instrument(),
   persistState(getDebugSessionKey())
 )(createStore);
 

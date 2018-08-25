@@ -1,6 +1,6 @@
 # Kanban app
 
-This repository contains ReactJS, Redux and React DnD
+This repository contains ReactJS, Redux and React DnD.
 
 ## Demo
 
